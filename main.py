@@ -34,7 +34,7 @@ def trainModel(video_names):
 tf.experimental.numpy.experimental_enable_numpy_behavior()
 
 vid_names = []
-for i in range(5,50):
+for i in range(116,122):
     vid_names.append(["./Video1/Video1Phone{:03d}.mp4".format(i),"./Video1/Video1Desktop{:03d}.mp4".format(i)])
 
 # print(vid_names)
